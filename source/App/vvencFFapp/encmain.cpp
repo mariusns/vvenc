@@ -50,7 +50,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <chrono>
 #include <ctime>
 
-#include "../vvencFFapp/EncApp.h"
+#include "../../../App/vvencFFapp/EncApp.h"
 #include "apputils/ParseArg.h"
 
 #include "vvenc/vvenc.h"

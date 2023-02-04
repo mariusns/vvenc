@@ -45,7 +45,7 @@ POSSIBILITY OF SUCH DAMAGE.
     \brief    Encoder application class
 */
 
-#include "../vvencFFapp/EncApp.h"
+#include "../../../App/vvencFFapp/EncApp.h"
 
 #include <list>
 #include <fstream>

@@ -784,7 +784,7 @@ void EncSlice::xProcessCtus( Picture* pic, const unsigned startCtuTsAddr, const 
   // fill encoder parameter list
   int idx = 0;
   const std::vector<int> base = slice.sliceMap.ctuAddrInSlice;
-  auto ctuIter = CtuTsIterator( cs, startCtuTsAddr, boundingCtuTsAddr, &m_ctuAddrMap, m_pcEncCfg->m_numThreads > 0 );
+  auto ctuIter = s( cs, startCtuTsAddr, boundingCtuTsAddr, &m_ctuAddrMap, m_pcEncCfg->m_numThreads > 0 );
   for( auto ctuPos : ctuIter )
   {
     ctuEncParams[ idx ].pic       = pic;
